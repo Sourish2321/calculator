@@ -1,0 +1,66 @@
+.one {
+    grid-area: 1;
+}
+
+.two {
+    grid-area: 2;
+}
+
+.three {
+    grid-area: 3;
+}
+
+.four {
+    grid-area: 4;
+}
+
+.five {
+    grid-area: 5;
+}
+
+.six {
+    grid-area: 6;
+}
+
+.seven {
+    grid-area: 7;
+}
+
+.eight {
+    grid-area: 8;
+}
+
+.nine {
+    grid-area: 9;
+}
+
+.zero {
+    grid-area: 0;
+}
+
+.clear {
+    grid-area: clear;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.multiply {
+    grid-area: multiply;
+}
+
+.add {
+    grid-area: add;
+}
+
+.subtract {
+    grid-area: subtract;
+}
+
+.calculator {
+    grid-column: 4;
+    grid-template-areas: 
+     'clear clear clear . . . . . . . . . . . . 0 0 0 .'     
+    ;
+}
